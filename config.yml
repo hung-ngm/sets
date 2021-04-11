@@ -1,14 +1,20 @@
 accounts:
   - name: alice
-    coins: ["1000token", "100000000stake"]
-  - name: bob
-    coins: ["500token"]
+    coins: ["1000carbon", "5000000stake"]
+  - name: SETS
+    coins: ["10000000stake"]
+  - name: vietnam
+    coins: ["45000000stake"]
+  - name: investors
+    coins: ["40000000stake"]
+
 validator:
-  name: alice
-  staked: "100000000stake"
+  name: SETS
+  staked: "10000000stake"
+  
 client:
   vuex:
     path: "vue/src/store"
-faucet:
-  name: bob 
-  coins: ["5token"]
+
+genesis: 
+  chain_id: "SETS"
